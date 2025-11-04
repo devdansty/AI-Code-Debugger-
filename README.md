@@ -22,7 +22,7 @@ Supports multiple programming languages and provides line-based fixes, explanati
 |------|-------------|
 | Frontend | React + Monaco Editor |
 | Backend | Node.js + Express |
-| AI Models | Groq LLaMA 3 / OpenAI GPT models |
+| AI Models | Groq Compund|
 | Styling | Custom CSS (light theme) |
 | Communication | REST API (`/api/debug`) |
 | Editor | [@monaco-editor/react](https://www.npmjs.com/package/@monaco-editor/react) |
