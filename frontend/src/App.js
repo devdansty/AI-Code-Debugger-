@@ -30,7 +30,7 @@ export default function App() {
     monacoRef.current = monaco;
   }
 
-  // apply a suggested fix to editor (1-based inclusive)
+  
   function applyFixToEditor(lineRange, suggestedFix) {
     const editor = editorRef.current;
     if (!editor) return;

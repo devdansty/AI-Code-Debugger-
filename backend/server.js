@@ -112,7 +112,7 @@ app.post('/api/debug', async (req, res) => {
 
     const { system, user } = buildPrompts(language, code, errorOutput);
 
-    // Primary call (OpenAI-compatible method; works with Groq's OpenAI-compatible endpoint too)
+    // Primary call (OpenAI-compatible method; works with Groq's OpenAI-compatible endpoint)
     let first;
     try {
       first = await openai.chat.completions.create({
